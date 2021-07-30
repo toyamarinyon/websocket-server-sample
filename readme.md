@@ -9,3 +9,4 @@ herokuのアカウントを持っていない場合は、まずアカウント�
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 3. herokuのアプリ作成フォームが表示されるので、以下のように入力します
+![heroku-guide-001]](images/heroku-guide-001.jpeg)
