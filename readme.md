@@ -19,3 +19,26 @@ herokuのアカウントを持っていない場合は、まずアカウント�
 以下のように画面が変わっていくと思いますので、完了するまでお待ちください。
 
 ![heroku-guide-002](images/heroku-guide-002.gif)
+
+4. 「Your app was successfully deployed.」と表示されたら完了です。
+
+## 動作確認
+動作確認用のProcessingのsketchを使い、WebSocketで通信ができていることを確認します
+
+1. sketchをこちらからダウンロードしてください
+⇒ https://github.com/mochizukiss/SyncLibrary/archive/refs/tags/v0.0.2.zip
+
+2. zipを解凍して、`SyncLibrary-0.0.2/examples/processing/websocket_demo/websocket_demo.pde`をProcessingで開いてください
+
+3. 19行目の`websocketServerName`にherokuのApp Nameを入力してください
+```
+String websocketServerName = "replace-it-with-your-heroku-app-name";
+```
+
+![heroku-guide-003](images/heroku-guide-003.png)
+
+4. `websocket_demo.pde` を保存して別のマシンでも開きます
+
+5. 両方のマシンでPlayします
+
+6. 画面をクリックすると両方のマシンでクリックした点が描画されます
