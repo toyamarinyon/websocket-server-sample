@@ -26,7 +26,7 @@ herokuのアカウントを持っていない場合は、まずアカウント�
 動作確認用のProcessingのsketchを使い、WebSocketで通信ができていることを確認します
 
 1. sketchをこちらからダウンロードしてください
-⇒ https://github.com/mochizukiss/SyncLibrary/archive/refs/tags/v0.0.2.zip
+⇒ https://github.com/mochizukiss/SyncLibrary/archive/refs/tags/v0.0.3.zip
 
 2. zipを解凍して、`SyncLibrary-0.0.2/examples/processing/websocket_demo/websocket_demo.pde`をProcessingで開いてください
 
