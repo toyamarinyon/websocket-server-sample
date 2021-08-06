@@ -42,3 +42,6 @@ String websocketServerName = "replace-it-with-your-heroku-app-name";
 5. 両方のマシンでPlayします
 
 6. 画面をクリックすると両方のマシンでクリックした点が描画されます
+
+こんな感じで、２つの端末で同じ位置に点が描画されます
+![heroku-guide-004](images/heroku-guide-004.gif)
