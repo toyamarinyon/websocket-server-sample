@@ -20,6 +20,11 @@ wss.on('connection', function connection(ws) {
 
     ws.on('message', function incoming(message) {
         console.log('received: %s', message);
+
+        // 接続維持用のメッセージの場合はここで終了
+        if (message === 'KEEPALIVE') {
+            return
+        }
         wss.clients.forEach((client) => {
             client.send(message);
         });
